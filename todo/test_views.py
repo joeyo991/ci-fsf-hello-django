@@ -1,6 +1,7 @@
 from django.test import TestCase
 from .models import Item
 
+
 class TestViews(TestCase):
 
     def test_get_todo_list(self):
